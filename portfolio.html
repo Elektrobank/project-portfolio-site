@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Site - Wade Ammons</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6">
+                <img src="img/logo.svg" class="img-responsive" alt="Wade Ammons logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1>Wade Ammons</h1>
+                <h4>Front-end Developer</h4>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/banner.jpg" class="img-responsive" alt="banner">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+        </div>
+
+        <main class="row text-center">
+            <article class="col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/resume.jpg" alt="resume" data-toggle="modal" data-target="#resume">
+                <h3>Resume</h3>
+                <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+            </article>
+
+            <article class="col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/invader.jpg" alt="invader" data-toggle="modal" data-target="#invader">
+                <h3>Classic Arcade Game</h3>
+                <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+            </article>
+
+            <article class="col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/map.jpg" alt="map" data-toggle="modal" data-target="#map">
+                <h3>Neighborhood Map</h3>
+                <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+            </article>
+        </main>
+    </div>
+    <!-- Modals -->
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resumeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="resumeLabel">Online Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/resume.jpg" alt="resume" data-toggle="modal" data-target="#resume">
+                    Look for my online resume here in the near future.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="invader" tabindex="-1" role="dialog" aria-labelledby="invaderLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="invaderLabel">Classic Arcade Game</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/invader.jpg" alt="invader" data-toggle="modal" data-target="#invader">
+                    Look for a classic arcade game here in the near future.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="mapLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="mapLabel">Neighborhood Map</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/map.jpg" alt="map" data-toggle="modal" data-target="#map">
+                    Look for a neighborhood map app here in the near future.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
